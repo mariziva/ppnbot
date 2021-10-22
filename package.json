@@ -13,6 +13,7 @@
   "author": "SheSharp",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "slackbots": "^1.2.0"
   }
 }
