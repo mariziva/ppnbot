@@ -1,7 +1,7 @@
-name: Triggered every 5min
+name: Triggered every 1min
 on:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '*/1 * * * *'
 
 jobs:
   setUpAndRun:
