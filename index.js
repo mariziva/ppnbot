@@ -1,3 +1,4 @@
+require('dotenv').config();
 const SlackBot = require('slackbots');
 const phrases = require('./phrases.json');
 
@@ -9,7 +10,7 @@ const getRandomIndexFromArray = (array) => {
 
 const bot = new SlackBot({
     token: BOT_TOKEN,
-    name: 'Slack bot'
+    name: 'PPNBot'
 });
 
 const selectedPhrase = phrases.positive[getRandomIndexFromArray(phrases.positive)];

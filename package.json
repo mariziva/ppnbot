@@ -4,7 +4,7 @@
   "description": "Slack bot example for SheSharp hackathon 2021",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "set NODE_ENV=dev && node index.js"
   },
   "keywords": [
     "bot",
